@@ -1,0 +1,6 @@
+The very first step was to choose where to do it. I chose StarCluster http://star.mit.edu/cluster/
+The easiest way to operate it was via Linux, so I made a Linux virtual machine using Oracle VM VirtualBox.
+Next step was to configurate StarCluster with my Amazon account. Crucial was adding keys and ID but also setting a default cluster template
+Then I could easily export files to my cluster
+Whenever running a cluster which had 2 or more nodes it was possible distribute work on each node using "mpirun" command.
+In my example I was able to get n results of my simulation, where n is number of nodes I had launched
