@@ -17,7 +17,7 @@ Here I will explain a few basic commands that let me operate my clusters:
 When logged in, it is wise to use `qhost` command to check how many nodes are opened and what are their names. 
 
 ## MPI method
-As the heading says, I used the MPI module to perform parallelisation. It is already built in Starcluster. I assigned the same simulation on each node. In this example it will be compiled 10 times on nodes: master, node001 and node002 (these are the names of nodes). This simple command assigns a job to a free node. In this case 3 are compiled at the same time (number of nodes), then another 3 and so on till it will be completed 10 times (the last one is compiled only on master node)
+As the heading says, I used the MPI module to perform parallelisation. It is already built in Starcluster. I assigned the same simulation on each node. In this example it will be compiled 20 times on nodes: master, node001 and node002 (these are the names of nodes). This simple command assigns a job to a free node. In this case 3 are compiled at the same time (number of nodes), then another 3 and so on till it will be completed 20 times.
 
 ## Results
 The code itself is pretty simple. 
