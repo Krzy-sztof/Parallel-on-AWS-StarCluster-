@@ -14,6 +14,8 @@ Here I will explain a few basic commands that let me operate my clusters:
 * `starcluster start mycluster` - it starts a template cluster and calls it "mycluster"
 * `starcluster sshmaster mycluster` - with that I logged in as a master and it took me to Amazon serwers.
 
+When logged in, it is wise to use `qhost` command to check how many nodes there are opened and what are their names. 
+
 ## Results
 The code itself is pretty simple. 
 It is used to check probability of an event in a board game with dice. The code in "projects" checks which player won or if it was a draw 
