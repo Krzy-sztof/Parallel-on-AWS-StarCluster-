@@ -7,12 +7,12 @@ The very first step was to choose where to do it. I chose StarCluster http://sta
 
 ## Installation and configuration of Starcluster
 Installation in Linux is pretty simple. Just do it using pip: `$ pip install StarCluster`.
-Configuration was a bit more difficult: type `vim ~/.starcluster/config`.
+Configuration was a bit more difficult. After I typed `starcluster help` a text popped up saying that there is no configuration. Command `vim ~/.starcluster/config`
 
 Whenever running a cluster which had 2 or more nodes it was possible distribute work on each node using "mpirun" command.
 In my example I was able to get n results of my simulation, where n is number of nodes I had launched.
 
-
+## Results
 The code itself is pretty simple. 
 It is used to check probability of an event in a board game with dice. The code in "projects" checks which player won or if it was a draw 
 and counts how many times. Then it saves the results in text files. The "results" code prints out summed up results
