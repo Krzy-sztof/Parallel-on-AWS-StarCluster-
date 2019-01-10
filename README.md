@@ -7,10 +7,12 @@ The very first step was to choose where to do it. I chose StarCluster http://sta
 
 ## Installation and configuration of Starcluster
 Installation in Linux is pretty simple. Just do it using pip: `$ pip install StarCluster`.
-Configuration was a bit more difficult. After I typed `starcluster help` a text popped up saying that there is no configuration. Command `vim ~/.starcluster/config`
+Configuration was a bit more difficult. After I typed `starcluster help` a text popped up saying that there is no configuration. Command `vim ~/.starcluster/config` took me to configuration panel. I had to fill information with the ones from my Amazon account: Key, Secret Key and ID. Also I made a template that allowed me to start my own clusters.
 
-Whenever running a cluster which had 2 or more nodes it was possible distribute work on each node using "mpirun" command.
-In my example I was able to get n results of my simulation, where n is number of nodes I had launched.
+## Opening clusters
+Here I will explain a few basic commands that let me operate my clusters:
+* `starcluster start mycluster` - it starts a template cluster and calls it "mycluster"
+* `starcluster sshmaster mycluster` - with that I logged in as a master and it took me to Amazon serwers.
 
 ## Results
 The code itself is pretty simple. 
