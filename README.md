@@ -3,7 +3,7 @@ The project was to improve the performance of the code using parallelization. In
 This repository will show step by step what I had to do to obtain this.
 
 ## Choosing the environment 
-The very first step was to choose where to do it. I chose StarCluster http://star.mit.edu/cluster/. It was written just Amazon purposes so after configuration it is really easy to operate via Linux. As a Windows user I made a Linux virtual machine using Oracle VM VirtualBox. I had to download Ubuntu image and upload it into VirtualBox. I also had to enable VT-x in BIOS.
+The very first step was to choose where to do it. I chose StarCluster http://star.mit.edu/cluster/. It was written just for Amazon purposes so after configuration it is really easy to operate via Linux. As a Windows user I made a Linux virtual machine using Oracle VM VirtualBox. I had to download Ubuntu image and upload it into VirtualBox. I also had to enable VT-x in BIOS.
 
 ## Installation and configuration of Starcluster
 Installation in Linux is pretty simple. Just do it using pip: `$ pip install StarCluster`.
