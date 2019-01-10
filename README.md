@@ -14,7 +14,10 @@ Here I will explain a few basic commands that let me operate my clusters:
 * `starcluster start mycluster` - it starts a template cluster and calls it "mycluster"
 * `starcluster sshmaster mycluster` - with that I logged in as a master and it took me to Amazon serwers.
 
-When logged in, it is wise to use `qhost` command to check how many nodes there are opened and what are their names. 
+When logged in, it is wise to use `qhost` command to check how many nodes are opened and what are their names. 
+
+## MPI method
+As the heading says, I used the MPI module to perform parallelisation. I assigned the same simulation on each node. In this case it will be compiled 10 times on nodes: master, node001 and node002 (these are the names of nodes). This simple command assigns a job to a free node. In this case 3 are compiled at the same time (number of nodes), then another 3 and so on till till it will be completed 10 times.
 
 ## Results
 The code itself is pretty simple. 
