@@ -13,6 +13,7 @@ Configuration was a bit more difficult. After I typed `starcluster help` a text 
 Here I will explain a few basic commands that let me operate my clusters:
 * `starcluster start mycluster` - it starts a template cluster and calls it "mycluster"
 * `starcluster sshmaster mycluster` - with that I logged in as a master and it took me to Amazon serwers.
+* `starcluster put mycluster ~/home/directory /cluster/directory` - simply transfers files to a cluster
 
 When logged in, it is wise to use `qhost` command to check how many nodes are opened and what are their names. 
 ![2019-01-10 7](https://user-images.githubusercontent.com/43875580/50994719-4ce7b800-151d-11e9-808b-086f302d6329.png)
