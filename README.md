@@ -7,7 +7,7 @@ The very first step was to choose where to do it. I chose StarCluster http://sta
 
 ## Installation and configuration of Starcluster
 Installation in Linux is pretty simple. Just do it using pip: `$ pip install StarCluster`.
-Configuration was a bit more difficult. After I typed `starcluster help` a text popped up saying that there is no configuration. Command `vim ~/.starcluster/config` took me to configuration panel. I had to fill information with the ones from my Amazon account: Key, Secret Key and ID. Also I made a template that allowed me to start my own clusters.
+Configuration was a bit more difficult. After I typed `starcluster help` a text popped up saying that there is no configuration. Command `vim ~/.starcluster/config` took me to configuration panel. I had to fill information with the ones from my Amazon account: Key, Secret Key and ID. Also I made a template that allowed me to start my own clusters. Type of cluster defines what kind of cluster should be opened. t1.micro is for free so it is the best choice for learning purposes. Numbes of nodes defines how many nodes is opened. The more is created, the bigger the cost is. But with t1.micro it does not matter.
 
 ## Opening clusters
 Here I will explain a few basic commands that let me operate my clusters:
