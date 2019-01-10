@@ -20,8 +20,10 @@ When logged in, it is wise to use `qhost` command to check how many nodes are op
 
 ## MPI method
 As the heading says, I used the MPI module to perform parallelisation. It is already built in Starcluster. I assigned the same simulation on each node. In this example it will be compiled 20 times on nodes: master, node001 and node002 (these are the names of nodes). This simple command assigns a job to a free node. In this case 3 are compiled at the same time (number of nodes), then another 3 and so on till it will be completed 20 times.
+![2019-01-10 6](https://user-images.githubusercontent.com/43875580/50994776-6ee13a80-151d-11e9-8a06-270d9ac4111b.png)
+
 
 ## Results
 The code itself is pretty simple. 
 It is used to check probability of an event in a board game with dice. The code in "projects" checks which player won or if it was a draw 
-and counts how many times. Then it saves the results in text files. The "results" code prints out summed up results
+and counts how many times. Then it saves the results in text files. The "results" code prints out summed up results.
