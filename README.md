@@ -16,11 +16,13 @@ Here I will explain a few basic commands that let me operate my clusters:
 * `starcluster put mycluster ~/home/directory /cluster/directory` - simply transfers files to a cluster
 
 When logged in, it is wise to use `qhost` command to check how many nodes are opened and what are their names. 
+
 ![2019-01-10 7](https://user-images.githubusercontent.com/43875580/50994719-4ce7b800-151d-11e9-808b-086f302d6329.png)
 
 
 ## MPI method
 As the heading says, I used the MPI module to perform parallelisation. It is already built in Starcluster. I assigned the same simulation on each node. In this example it will be compiled 20 times on nodes: master, node001 and node002 (these are the names of nodes). This simple command assigns a job to a free node. In this case 3 are compiled at the same time (number of nodes), then another 3 and so on till it will be completed 20 times.
+
 ![2019-01-10 6](https://user-images.githubusercontent.com/43875580/50994776-6ee13a80-151d-11e9-8a06-270d9ac4111b.png)
 
 
